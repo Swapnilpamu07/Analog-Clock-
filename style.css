@@ -1,0 +1,180 @@
+
+body{
+  background-color: rgb(65, 65, 201);
+  margin: 0%;
+  padding: 0%  ;
+}
+@media   (min-width: 768px) and (max-width: 1023px){
+  .date {
+      width: 23% !important;
+  }
+}
+@media   (min-width: 425px) and (max-width: 768px){
+  .date {
+      font-size: 20px !important;
+      width: 29% !important;
+  }
+  .bulb #tim0{
+        font-size: small;
+  }
+  .bulb #tim1{
+        font-size: small;
+        top: 42% !important;
+  }
+  .bulb #tim2{
+        font-size: small;
+  }
+  .bulb #tim3{
+        font-size: small;
+        top: 42% !important;
+  }
+}
+@media   (min-width: 375px) and (max-width: 425px){
+  .date {
+      font-size: 20px !important;
+      width: 31% !important;
+  }
+  .bulb #tim0{
+        font-size: small;
+  }
+  .bulb #tim1{
+        font-size: small;
+        top: 42% !important;
+  }
+  .bulb #tim2{
+        font-size: small;
+  }
+  .bulb #tim3{
+        font-size: small;
+        top: 42% !important;
+  }
+}
+@media   (min-width: 0px) and (max-width: 374px){
+  .date {
+      font-size: 17px !important;
+      width: 32% !important;
+  }
+  .bulb #tim0{
+        font-size: 11px;
+  }
+  .bulb #tim1{
+        font-size: small;
+        top: 42% !important;
+        left:90% !important;
+  }
+  .bulb #tim2{
+        font-size: small;
+  }
+  .bulb #tim3{
+        font-size: small;
+        top: 42% !important;
+        right: 90% !important;
+  }
+}
+.bulb{
+    padding: 20%;
+    border-radius: 50% !important;
+    width:32px;
+    height: 32px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+   background:rgba(255,255,255,0.25);
+   box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
+   border-radius: 10px;
+   border: 1px solid rgba(255,255,255,0.18);
+ }
+
+ .bulb .cir{
+   height: 10px;
+   border-radius: 50%;
+   width: 10px;
+   background-color: white;
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 49%;
+   z-index: 1;
+
+ }
+
+ .bulb  #tim0{
+   color: white;
+   z-index: 1;
+   position: absolute;
+   top: 0% ;
+   left: 49%;
+ }
+ .bulb  #tim1{
+   color: white;
+   z-index: 1;
+   position: absolute;
+   top: 45%;
+    left:95%
+ }
+ .bulb  #tim2{
+   color: white;
+   z-index: 1;
+   position: absolute;
+   bottom: 0%;
+   left: 49%;
+ }
+ .bulb  #tim3{
+   color: white;
+   z-index: 1;
+   position: absolute;
+   top: 45%;
+   right: 95%;
+ }
+ .bulb #h1{
+   display: block;
+   width: 0%;
+   height: 32%;
+   position: absolute;
+    top: 17%;
+    left: 50%;
+    box-shadow:9px 12px 30px 5px rgba(0, 0, 0,0.9);
+    } 
+ 
+ .bulb #h2{
+   width: 0%;
+   height: 32%;
+    box-shadow:9px 12px 30px 5px rgba(0, 0, 0,0.9);
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    }
+
+ .bulb #h3{
+   width: 0%;
+   height: 32%;
+    box-shadow:9px 12px 30px 5px rgba(0, 0, 0,0.9);
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    }
+    
+ 
+ .color{
+    background-color:black;
+    animation: ani 3s infinite   ;
+ } 
+ .date{
+  background:rgba(255,255,255,0.25);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.18);
+   font-size: 30px;
+    margin-top: 20px !important;
+    margin-bottom: 0px;
+    text-align: center; 
+    /* border: 2px solid red; */
+    width: 17%;
+    margin: auto;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 20px;
+  }
