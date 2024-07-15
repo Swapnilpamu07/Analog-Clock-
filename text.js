@@ -50,3 +50,9 @@ const date = new Date();
  
 //  document.write(`${date.getDate()} / ${date.getMonth()} / ${date.getFullYear()}`)
  date1.innerHTML=`${date.getDate()} / ${date.getMonth()} / ${date.getFullYear()}`;
+//  document.write(`${date.getDate()} / ${date.getMonth()} / ${date.getFullYear()}`)
+ date1.innerHTML=`${date.getDate()} / ${date.getMonth()} / ${date.getFullYear()}`;
+//  document.write(`${date.getDate()} / ${date.getMonth()} / ${date.getFullYear()}`)
+ date1.innerHTML=`${date.getDate()} / ${date.getMonth()} / ${date.getFullYear()}`;
+//  document.write(`${date.getDate()} / ${date.getMonth()} / ${date.getFullYear()}`)
+ date1.innerHTML=`${date.getDate()} / ${date.getMonth()} / ${date.getFullYear()}`;
